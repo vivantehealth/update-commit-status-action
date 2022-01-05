@@ -25,5 +25,5 @@ runs:
             state: ${{ inputs.state }},
             context: ${{ inputs.context }},
             description: ${{ inputs.description }},
-            target_url: "https://github.com/${{github.repository}}/actions/runs/${{github.run_id}}",
+            target_url: "https://github.com/${{github.repository}}/actions/runs/${{github.run_id}}"
           });
