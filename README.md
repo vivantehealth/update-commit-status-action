@@ -10,6 +10,10 @@ jobs:
     name: Run
     runs-on: ubuntu-latest
     steps:
-      - name: Run action
-        uses: vivantehealth/repo-name@v0
+      - name: Update commit status failure
+        if: ${{ failure() }}
+        uses: vivantehealth/update-commit-status-action@v0
+        with:
+          state: "failure"
+          context: ${{ github.workflow }}
 ```
