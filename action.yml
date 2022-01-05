@@ -10,7 +10,7 @@ inputs:
   description:
     description: A short description of the status
     required: false
-    default: ""
+    default: "Commit status"
 runs:
   using: "composite"
   steps:
