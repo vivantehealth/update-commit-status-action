@@ -1,4 +1,7 @@
-# repo-name
+# update-commit-status
+
+The purpose of this action is to update the commit status where it would otherwise not be updated, such as when a deploy to an environment is manually triggered
+
 
 To make this action available to other repos, it needs to be `internal` visiblity, and "Accessible from repositories in the 'vivantehealth' organization" set in [Settings->Actions](https://github.com/vivantehealth/terraform-plan-action/settings/actions)
 
